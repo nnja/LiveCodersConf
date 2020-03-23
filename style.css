@@ -1,0 +1,206 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.heading {
+	background-color: black;
+	background-size: cover;
+	background-position: center;
+	height: 20vh;
+	background-attachment: fixed;
+}
+
+
+/* Main Navi */
+.main-nav {
+	float: right;
+	/*gets rid of bullet points in front of list items:*/
+	list-style: none;
+	margin-top: 40px;
+	margin-right: 30px;
+	font-size: 20px;
+}
+
+.main-nav li {
+	display: inline-block;
+	/*changing to inline-block so they can be side by side*/
+	margin-left: 40px; 
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+	padding: 8px 0;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 90%;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+	border-bottom: 2px solid gray;
+}
+
+/* Mobile Navi */
+.mobile-nav-icon {
+	float: right;
+	margin-top: 30px;
+	cursor: pointer;
+	display: none;
+}
+
+.mobile-nav-icon i {
+	font-size: 200%;
+	color: #fff;
+}
+
+
+
+/* Sticky Navi */
+
+.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(5, 5, 5, 0.9);
+	box-shadow: 0 2px 2px #efefef;
+	z-index: 9999;
+}
+
+.sticky .main-nav {
+	margin-top: 18px;
+}
+
+.sticky .logo {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+	padding: 8px 0;
+}
+
+
+.logo {
+	height: 100px;
+	width: auto;
+	float: left;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+
+/*Sections*/
+
+section {
+	padding: 30px 0;
+}
+
+.sectionSeparator {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(imgs/logo.png);
+	background-size: cover;
+	background-position: center;
+	height: 20vh;
+	background-attachment: fixed;
+}
+
+/*Images*/
+#conf_img {
+	border-radius: 15px;
+	padding: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 50%;
+	height: auto;
+	display: block;
+}
+
+/* Headers */
+
+.titles {
+	margin-left: 15px;
+	font-size: 35px;
+}
+
+
+h2,
+h3 {
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.7rem;
+}
+
+
+/* Unordered List bullets: */
+ul.circle {
+  list-style-type: circle;
+}
+
+ul.ulspeakers {
+  list-style-image: url('imgs/bullets.png');
+  margin-left: 15px;
+}
+
+/* Links */
+
+h2 a,
+li a,
+p a {
+	color: #663399;
+}
+
+h2 a:hover,
+li a:hover,
+p a:hover {
+	text-decoration: underline;
+	color: #663399;
+}
+
+.speakerIcons {
+	font-size: 20px;
+}
+
+/* Text */
+
+p {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 1.4rem;
+}
+
+
+#break {
+	text-align: center;
+}
+
+
+
+/* Footer */
+.footer {
+  padding-top: 25px;
+  padding-bottom: 15px;
+/*  font-size: 20px;*/
+  text-align: center;
+  background-color: #000;
+}
+
+.icons {
+	margin: 15px 0;
+	font-size: 3.5rem;
+	color: #555;
+}
+
+i:hover {
+	color: #663399;
+}
+
+.sigs {
+	font-size: 1.2rem;
+	color: #555;
+}
