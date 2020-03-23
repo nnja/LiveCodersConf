@@ -147,6 +147,10 @@ ul.ulspeakers {
   margin-left: 15px;
 }
 
+li {
+	font-size: 1.4rem;
+}
+
 /* Links */
 
 h2 a,
