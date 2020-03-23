@@ -8,6 +8,7 @@ A website to provide more details on the Twitch-Centered Conference put on by Th
 
 This website was created for TheLiveCoders team on Twitch. It was created to showcase the speakers and schedule for The Live Coders Conference taking place on April 9, 2020. It was created and will be maintained by me: CaptCalli - the Community Manager for The Live Coders.
 For more info about the team, head on over to [Twitter](https://twitter.com/thelivecoders) or [Twitch](https://www.twitch.tv/thelivecoders)
+Check out the site [here](https://captcalli.github.io/LiveCodersConf/)
 
 ---
 
