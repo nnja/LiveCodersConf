@@ -140,11 +140,29 @@ h3 {
 /* Unordered List bullets: */
 ul.circle {
   list-style-type: circle;
+	line-height: 2em;
+}
+
+ul.circle li {
+	padding-left: 1em;
+}
+
+ul.circle li:nth-child(odd) {
+	background-color: #66339977;
 }
 
 ul.ulspeakers {
-  list-style-image: url('imgs/bullets.png');
+	list-style-image: url('imgs/bullets.png');
+	line-height: 2.5em;
   margin-left: 15px;
+}
+
+ul.ulspeakers li {
+	padding-left: 1em;
+}
+
+ul.ulspeakers li:nth-child(odd) {
+	background-color: #66339977;
 }
 
 li {
