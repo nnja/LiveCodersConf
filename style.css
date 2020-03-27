@@ -171,15 +171,26 @@ p a:hover {
 	color: #663399;
 }
 
-.ui.cards>.card>.extra a:not(.ui) {
-	color: #444;
+.speakerIcons {
+	font-size: 30px;
 }
 
-.ui.cards>.card>.extra a:not(.ui):hover {
-	color: black;
-	text-decoration: underline;
-	font-size: 105%;
+i.twitch.icon {
+	color: #6441a5;
 }
+
+i.twitter.icon {
+	color: #1DA1F2;
+}
+
+
+i.twitch.icon:hover,
+i.twitter.icon:hover {
+	color: black;
+	font-size: 35px;	
+}
+
+
 
 /* Text */
 
