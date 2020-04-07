@@ -12,7 +12,7 @@ body {
 
 .row {
 	padding: 0 4%;
-	}   
+	}
 
 /* Main Navi */
 .main-nav {
@@ -27,7 +27,7 @@ body {
 .main-nav li {
 	display: inline-block;
 	/*changing to inline-block so they can be side by side*/
-	margin-left: 40px; 
+	margin-left: 40px;
 }
 
 .main-nav li a:link,
@@ -206,6 +206,11 @@ p a:hover {
 	font-size: 30px;
 }
 
+.speakerTime {
+	font-size: 20px;
+	float:right;
+}
+
 i.twitch.icon {
 	color: #6441a5;
 }
@@ -218,7 +223,7 @@ i.twitter.icon {
 i.twitch.icon:hover,
 i.twitter.icon:hover {
 	color: black;
-	font-size: 35px;	
+	font-size: 35px;
 }
 
 
