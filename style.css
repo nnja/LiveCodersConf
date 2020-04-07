@@ -12,7 +12,7 @@ body {
 
 .row {
 	padding: 0 4%;
-	}   
+	}
 
 /* Main Navi */
 .main-nav {
@@ -27,7 +27,7 @@ body {
 .main-nav li {
 	display: inline-block;
 	/*changing to inline-block so they can be side by side*/
-	margin-left: 40px; 
+	margin-left: 40px;
 }
 
 .main-nav li a:link,
@@ -176,8 +176,8 @@ h3 {
 }
 
 /* Unordered List bullets: */
-ul.circle {
-  list-style-type: circle;
+ul.no-bullets {
+  list-style-type: none;
 }
 
 ul.ulspeakers {
@@ -261,4 +261,81 @@ i:hover {
 .sigs {
 	font-size: 1.2rem;
 	color: #555;
+}
+
+/* Schedule List Styles */
+
+.schedule-list {
+	padding: 0 2em;
+}
+
+.schedule-list h1, .schedule-list h2, .schedule-list h3 {
+font-weight: 500;
+margin: 0;
+text-align: left;
+}
+
+.schedule-list h1{
+font-weight: 700;
+margin-top: 0.3348979767em;
+margin-bottom: 0.6944444444em;
+font-size: 1.44em;
+}
+
+.schedule-list h2{
+margin-bottom: 0.4822530864em;
+font-size: 1em;
+}
+
+.schedule-list h3 {
+margin: 0 0 0.3348979767em;
+font-weight: 400;
+font-size: 1em;
+}
+
+.schedule-list ol {
+padding: 0;
+list-style: none;
+border-top: 1px solid #ccc;
+margin: 0 -0.4822530864em 1.44em;
+}
+
+.schedule-list li {
+display: flex;
+padding: 0.5em;
+background: #fff;
+border-bottom: 1px solid #ccc;
+}
+
+.schedule-list .time {
+padding: 0 0.8333333333em;
+flex: 0 0 7em;
+text-align: center;
+}
+
+.schedule-list time {
+font-size: 0.8333333333em;
+display: block;
+line-height: 1.2em;
+}
+.schedule-list time:nth-of-type(2) {
+color: #999;
+}
+
+.schedule-list .details {
+overflow: hidden;
+border-left: 2px solid;
+padding-left: 0.6944444444em;
+width: 100%;
+}
+
+.schedule-list .speaker {
+color: #999;
+font-size: 0.8333333333em;
+}
+
+.schedule-list .social {
+float: right;
+color: #999;
+font-size: 0.8333333333em;
 }
