@@ -122,6 +122,34 @@ section {
 	display: block;
 }
 
+.schedule {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	border-radius: 30px;
+	max-width: 70%;
+	height: auto;
+}
+
+.teamsponsor {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.sponsorimg {
+	margin: 10px 40px;
+	width: 24.99999%;
+}
+
+.sponsorimg2 {
+	margin: 10px 40px;
+	width: 20%;
+}
+
+
 /* Headers */
 
 .titles {
@@ -129,6 +157,9 @@ section {
 	font-size: 35px;
 }
 
+h2 {
+	font-size: 2.3rem;
+}
 
 h2,
 h3 {
