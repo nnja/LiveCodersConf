@@ -18,6 +18,17 @@
 		width: 17px;
 		margin-right: 16px;
 	}
+
+	.banner {
+		display: none;
+	}
+
+	#conf_img {
+		visibility: visible;
+		display: block;
+		
+	}
+
 }
 
 
@@ -28,6 +39,16 @@
 
 	section {
 		padding: 10px 0;
+	}
+
+	.banner {
+		display: none;
+	}
+
+	#conf_img {
+		visibility: visible;
+		display: block;
+		
 	}
 
 	.row {
@@ -42,6 +63,7 @@
 	.mobile-nav-icon {
 		display: inline-block;
 	}
+
 
 
 	.main-nav {
@@ -91,6 +113,15 @@
 
 	section {
 		padding: 10px 0;
+	}
+
+	.banner {
+		display: none;
+	}
+
+	#conf_img {
+		display: block;
+		visibility: visible;
 	}
 
 }
